@@ -8,6 +8,7 @@ import 'react-circular-progressbar/dist/styles.css';
 
 
 const CardContainer = styled.div`
+cursor: pointer;
 margin-top: 10px;
 margin-left: 10px;
 overflow: hidden;
@@ -26,6 +27,7 @@ justify-content: center;
 
 `
 const CardTitle = styled.p`
+cursor: pointer;
 margin-right: 400px;
 @media screen and (max-width: 768px){
     
@@ -36,6 +38,7 @@ margin-right: 400px;
  }
 `
 const CardTechnology = styled.p`
+cursor: pointer;
 @media screen and (max-width: 768px){
     margin-top: -5px;
     width: 100px;
@@ -45,6 +48,7 @@ const CardTechnology = styled.p`
  }
 `
 const CardProgress = styled.p`
+cursor: pointer;
 margin-left: -100px;
 @media screen and (max-width: 768px){
     
@@ -63,6 +67,7 @@ margin-left: 20px;
  }
 `
 const CardDue = styled.p`
+cursor: pointer;
 margin-left: 100px;
 @media screen and (max-width: 768px){
     margin-left: 60px;
@@ -72,6 +77,7 @@ margin-left: 100px;
  }
 `
 const CardName = styled.p`
+cursor: pointer;
 margin-right: 100px;
 @media screen and (max-width: 768px){
     
@@ -82,6 +88,7 @@ margin-right: 100px;
 
 `
 const CardNumber = styled.p`
+cursor: pointer;
 margin-top: 10px;
 color: #999999;
 @media screen and (max-width: 768px){
@@ -92,6 +99,7 @@ color: #999999;
  }
 `
 const CardEmail = styled.p`
+cursor: pointer;
 margin-top: 10px;
 margin-left: 20px;
 color: #999999;
@@ -103,6 +111,7 @@ color: #999999;
  }
 `
 const CardTotal = styled.p`
+cursor: pointer;
 @media screen and (max-width: 768px){
     
     font-size: 12px;
@@ -111,6 +120,7 @@ const CardTotal = styled.p`
  }
 `
 const CardPaid = styled.p`
+cursor: pointer;
 color: rgba(0,128,0,0.8);
 @media screen and (max-width: 768px){
     
@@ -120,6 +130,7 @@ color: rgba(0,128,0,0.8);
  }
 `
 const Map = styled.div`
+cursor: pointer;
 display: flex;
   justify-content: center;
   align-items: center;
@@ -137,6 +148,7 @@ display: flex;
  
 `
 const Pro = styled.div`
+cursor: pointer;
 width: 200px;
   margin-left: -30px;
   margin-right: 60px;
@@ -149,10 +161,12 @@ width: 200px;
  }
 `
 const CardDetails = styled.div`
+cursor: pointer;
 display: grid;
   grid-template-columns: 1fr  ;
 `
 const CardTop = styled.div`
+cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,6 +178,7 @@ const CardTop = styled.div`
  }
 `
 const Progress = styled.div`
+cursor: pointer;
 display: flex;
   justify-content: center;
   align-items: center;
@@ -173,6 +188,7 @@ display: flex;
   }
 `
 const DetailsSection = styled.div`
+cursor: pointer;
  display: flex;
   justify-content: center;
   align-items: center;
@@ -187,6 +203,7 @@ const DetailsSection = styled.div`
   
 `
 const DetailSection = styled.div`
+cursor: pointer;
 align-items: center;
   display: grid;
   justify-content: center;
@@ -198,9 +215,11 @@ align-items: center;
  }
 `
 const Details = styled.div`
+cursor: pointer;
 display: flex;
 `
 const DetilSection = styled.div`
+cursor: pointer;
 align-items: center;
   display: grid;
   border-left: 2px solid #b3b3b3;
@@ -214,6 +233,7 @@ align-items: center;
 
 `
 const TotalSection = styled.div`
+cursor: pointer;
  margin-top: -5px;
   display: flex;
   align-items: center;
@@ -226,6 +246,7 @@ const TotalSection = styled.div`
 
 `
 const TotalsSection = styled.div`
+cursor: pointer;
  margin-top: -5px;
   display: flex;
   align-items: center;
@@ -238,12 +259,14 @@ const TotalsSection = styled.div`
 
 `
 const Mil = styled.label`
+cursor: pointer;
  margin-left: 40px;
  @media screen and (max-width: 768px){
      margin-left: -50px;
  }
 `
 const Due = styled.label`
+cursor: pointer;
  text-align-last: center;
   margin-left: 40px;
   width: 40px;
