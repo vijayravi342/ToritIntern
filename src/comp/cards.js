@@ -319,7 +319,7 @@ class Cards extends Component {
                 </div>
                 <div>
 
-                  <DetailsSection onClick={() => { this.setState({ selected: !selected, notSelected: index }) }} style={{ background: selected === false && notSelected===index ? 'white' : 'gray' }} >
+                  <DetailsSection onClick={() => { this.setState({ selected: !selected, notSelected: index }) }} style={{ background: selected === false && notSelected===index ? 'white' : '#d9d9d9' }} >
                     <DetailSection>
                       <CardName>{items.Name}</CardName>
                       <Details>
